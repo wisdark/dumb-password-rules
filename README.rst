@@ -268,6 +268,13 @@ they lecture you on how to create a strong password.
 
 |Blackrock|
 
+`Bloomingdale's <https://www.bloomingdales.com/account/createaccount?cm_sp=my_account-_-sign_in-_-create_account>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+16 characters maximum, no ``.`` ``,`` ``-`` ``|`` ``/`` ``=`` or ``_`` allowed.
+
+|Bloomingdale's|
+
 `Blue Cross Blue Shield Massachusetts <https://www.bluecrossma.com/wps/portal/register>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -349,6 +356,14 @@ So many bad ideas: a low maximum length, requiring six specific character types 
 plus a weird restriction that makes random generation harder.
 
 |CenturyLink|
+
+`Credit Agricole <https://www.credit-agricole.fr/ca-paris/particulier/acceder-a-mes-comptes.html0>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Login is a predefined 11 digits long identifier that you can not change
+* Password is a 6 digits long identifier that you need to input using your mouse
+
+|Credit Agricole|
 
 `Charles Sturt University <https://www.csu.edu.au/division/dit/services/services/access-and-logins/password-management>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -496,6 +511,15 @@ It's a good thing they don't store personal information such as your passport nu
 
 |Delta|
 
+`Discovery Benefits <https://benefitslogin.discoverybenefits.com/Login.aspx>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Requires at least one symbol, but must be one of `! @ # $ % & * ?`, and also
+has an unstated max length of 20 characters.
+
+|Discovery Benefits 1|
+|Discovery Benefits 2|
+
 `DJI <https://account.dji.com/register>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -593,6 +617,13 @@ By the time I'd finished reading the rules I've forgotten all of them.
 Must be exactly 6 alphanumeric characters, does not show special characters are not allowed, username is your social security number (easily searchable) and the form is sent over plain HTTP. Did I mention this company applies college entrance exams for **Computer Science** nationwide in Brazil?
 
 |Fundatec|
+
+`Gebührenfrei MasterCard <https://www.gebuhrenfrei.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The new password can only have 6-12 characters. It *may* contain letters, numbers and a fixed set of special characters.
+
+|Gebührenfrei MasterCard|
 
 `Getin Bank <https://secure.getinbank.pl/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -810,6 +841,13 @@ Okay, doesn't looks that hard... But wait, there are hidden rules!
 |Keimyung1|
 |Keimyung2|
 |Keimyung3|
+
+`Kryterion Webassessor <https://webassessor.com/googlecloud>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+I was quite suprised to see this when I was registering for my Google Professional Cloud **Security** Engineer certification. Nice part is that they **don't allow quotes** as special character, so I assume there possibly might be some other issues on their backends. :-)  
+
+|Kryterion Webassessor|
 
 `LCL <https://www.lcl.fr>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1633,7 +1671,37 @@ confusion when the password wouldn't work.
 
 Your password length is limited between 6 and 12 characters.
 
+|Wageworks|
+
+`Wageworks <https://participant.wageworks.com/Home.aspx>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In addition to the following rules regarding passwords...
+
+- 8-20 characters in length
+- Include at least 4 of the following: lowercase letter, uppercase letter, number AND symbol
+- Not include your last name, first name or space
+
+Your new password should be different from your previous twenty passwords.
+
+Ok. _Password21!_, it is.
+
 |Walmart|
+
+`Wageworks <https://participant.wageworks.com/Home.aspx>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In addition to the following rules regarding passwords...
+
+- 8-20 characters in length
+- Include at least 4 of the following: lowercase letter, uppercase letter, number AND symbol
+- Not include your last name, first name or space
+
+Your new password should be different from your previous twenty passwords.
+
+Ok. Password21!, it is.
+
+|Wageworks|
 
 `Waze <https://www.waze.com/forgot_password>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1736,6 +1804,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Best Buy| image:: /screenshots/bestbuy1.png
 .. |Best Buy2| image:: /screenshots/bestbuy2.png
 .. |Blackrock| image:: /screenshots/blackrock.png
+.. |Bloomingdale's| image:: /screenshots/bloomingdales.png
 .. |Blue Cross Blue Shield Massachusetts| image:: /screenshots/bcbs-massachusetts.png
 .. |Boursorama| image:: /screenshots/boursorama.png
 .. |Boligøen| image:: /screenshots/boligoen.jpg
@@ -1757,6 +1826,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Copart| image:: /screenshots/copart.png
 .. |Copyright.gov| image:: /screenshots/copyright-gov.png
 .. |Coventry Building Society| image:: /screenshots/coventry-building-society.png
+.. |Credit Agricole| image:: /screenshots/ca-paris.png
 .. |csu.edu.au| image:: /screenshots/csu.edu.au.png
 .. |ca-centrest.fr| image:: /screenshots/ca-centrest.png
 .. |CVent| image:: /screenshots/cvent.png
@@ -1765,6 +1835,8 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Dell| image:: /screenshots/dell.png
 .. |Deloitte GlobalAdvantage| image:: /screenshots/deloitte.png
 .. |Delta| image:: /screenshots/delta.jpg
+.. |Discovery Benefits 1| image:: /screenshots/discovery-benefits-1.png
+.. |Discovery Benefits 2| image:: /screenshots/discovery-benefits-2.png
 .. |DJI| image:: /screenshots/dji-drones.png
 .. |Easybank| image:: /screenshots/easybank.png
 .. |Easyjet| image:: /screenshots/easyjet.png
@@ -1779,6 +1851,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |FIS Global| image:: /screenshots/fisglobal.png
 .. |Fundatec| image:: /screenshots/fundatec.png
 .. |Getin Bank| image:: /screenshots/getin.png
+.. |Gebührenfrei MasterCard| image:: /screenshots/gebuhrenfrei-mastercard.png
 .. |Global Entry| image:: /screenshots/global-entry.png
 .. |GoDaddy| image:: /screenshots/godaddy.png
 .. |GoDaddy SFTP| image:: /screenshots/godaddy-sftp.png
@@ -1798,6 +1871,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Keimyung1| image:: /screenshots/keimyung1.png
 .. |Keimyung2| image:: /screenshots/keimyung2.png
 .. |Keimyung3| image:: /screenshots/keimyung3.png
+.. |Kryterion Webassessor| image:: /screenshots/webassessor.png
 .. |lcl.fr| image:: /screenshots/lcl.png
 .. |LibraryThing| image:: /screenshots/librarything.png
 .. |Lloyds| image:: /screenshots/lloyds.png
@@ -1890,6 +1964,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Virgin Media| image:: /screenshots/virginmedia.jpg
 .. |Virgin Mobile| image:: /screenshots/virginmobile.png
 .. |Virgin Trains| image:: /screenshots/virgintrains.jpg
+.. |WageWorks| image:: /screenshots/wageworks.png
 .. |Walmart| image:: /screenshots/walmart.png
 .. |Waze| image:: /screenshots/waze.png
 .. |WeatherBug| image:: /screenshots/weatherbug.png
