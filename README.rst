@@ -121,11 +121,32 @@ Your password needs to be between 8 and 16 characters long - no special characte
 
 |ANZBank|
 
+`AOK (German Health Insurance) <https://meine.aok.de/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is the online customer portal of the German health insurance company AOK. They have an extensive set of rules for both passwords and usernames.
+
+The password rules are:
+
+- Length between 8 and 14 characters
+- At least one letter, one number and one special character
+- Special characters are: !@$%/=?`+@#_.;:{}|
+- The password must not start with ? or !
+- The password must not include the username
+- The password must not be the same as any of your previous passwords
+
+The rules for the username are:
+
+- Length between 1 and 12 characters
+- No umlauts allowed (äöü), no special characters, no spaces, no ., no _, no ß
+
+|AOK1|
+|AOK2|
+
 `AOL <https://aol.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Between 8 and 16, so I can't go up to 20. Oh, and thanks for restricting
-one of the most common special characters!
+Between 8 and 16, so I can't go up to 20.
 
 |AOL|
 
@@ -260,6 +281,16 @@ login again.
 | |Best Buy|
 | |Best Buy2|
 
+`BinckBank <https://www.binck.nl/klanten/faq/veelgestelde-vragen-inloggen>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Between 10 and 16 letters and/or digits. No special characters are allowed.
+Must be renewed at least every 180 days, but you can configure to let the password expire sooner.
+When changing the password, the new password cannot be too similar to the existing password.
+
+|BinckBank|
+|BinckBank-validity|
+
 `Blackrock <https://nge01.bnymellon.com/NextGenV4/dflt/Login.blk>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -282,6 +313,13 @@ they lecture you on how to create a strong password.
 information.
 
 |Blue Cross Blue Shield Massachusetts|
+
+`BMO Bank of Montreal <https://www1.bmo.com/onlinebanking/cgi-bin/netbnx/NBmain?product=5>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password requires at least one special character but disallows backtick `````, backslash ``\``, vertical bar ``|``, and underscore ``_``.
+
+|BMO Bank of Montreal|
 
 `BMW ConnectedDrive <https://www.bmw-connecteddrive.co.uk/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -421,6 +459,15 @@ A max of 12 characters... Can't handle most symbols (only 5 supported). At least
 
 |Citi|
 
+`CloverSecurity <https://cloversecurity.com/safemaker/merchant-portal/account/details>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Password restricts quantity of characters "of same case", making `correcthorsebatterystaple <https://xkcd.com/936/>`_-style passwords problematic
+* No feedback for which rules are broken
+* Unlisted prohibited characters
+
+|CloverSecurity|
+
 `Commsec <https://www2.commsec.com.au/selfservice/resetpassword>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -527,6 +574,17 @@ The symbol `\\` is banned without a notice, it'll probably escape whatever you'l
 
 |DJI|
 
+
+`Dnevnik.ru <https://login.dnevnik.ru/login>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Silently (sic!) trim password to 30 symbols.
+
+That causes the stupid case when you could successfully registrate an account with password length of 52 and can't login with the password.
+
+|dnevnik|
+
+
 `Dutch Tax Authorities (Belastingdienst) <https://www.belastingdienst.nl/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -576,6 +634,13 @@ letter, at least 1 uppercase letter, at least 1 number and at least 1
 
 |e-learning (Unipd)|
 
+`Electronic Arts (EA) <https://www.ea.com/register>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Your password must be 8 - 16 characters, and include at least one lowercase letter, one uppercase letter, and a number.
+
+|Electronic Arts|
+
 `EllieMae Access <https://access.elliemae.com/home>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -585,6 +650,28 @@ Reset uses a Security Question, and you have to choose from a list of 5.
 |EllieMae1|
 |EllieMae2|
 |EllieMae3|
+
+`E-Trade <https://us.etrade.com/e/t/user/login>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Causes:
+
+* Your two-factor authentication code must be appended to the end of the password
+* Passwords have a limit of 32 characters
+
+Effect:
+If your account has a 32-character password and has two-factor authentication,
+their system appears to cut off the token, making it impossible to login.
+You must reduce your password to 26 characters in order to login with a token.
+
+|ETrade|
+
+`FACE IT Ltd. (Faceit) <https://www.faceit.com/en/signup>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Your password must be 6 - 20 characters. No special characters or numbers required.
+
+|Faceit|
 
 `Fidelity <https://fps.fidelity.com/ftgw/Fps/Fidelity/RtlCust/ChangePIN/Init>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -656,6 +743,24 @@ Some characters are **too** special.
 Max 14 characters for the most important password in your shared hosting environment.
 
 |GoDaddy SFTP|
+
+`GoFundMe <https://www.gofundme.com/sign-up>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- At least one uppercase and one lowercase letter
+- At least one number and one special symbol
+- Does not specify which characters are considered special symbols; did not recognize spaces as special symbols
+
+|GoFundMe|
+
+`Green Flag <https://www.greenflag.com//>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- 8 to 10 characters
+- No special characters
+
+|GreenFlag1|
+|GreenFlag2|
 
 `Her Majesty’s Revenue & Customs (UK Tax) <https://www.tax.service.gov.uk/government-gateway-registration-frontend?accountType=individual&continue=%2Fpersonal-account%2Fdo-uplift&origin=unknown>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -845,7 +950,7 @@ Okay, doesn't looks that hard... But wait, there are hidden rules!
 `Kryterion Webassessor <https://webassessor.com/googlecloud>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-I was quite suprised to see this when I was registering for my Google Professional Cloud **Security** Engineer certification. Nice part is that they **don't allow quotes** as special character, so I assume there possibly might be some other issues on their backends. :-)  
+I was quite suprised to see this when I was registering for my Google Professional Cloud **Security** Engineer certification. Nice part is that they **don't allow quotes** as special character, so I assume there possibly might be some other issues on their backends. :-)
 
 |Kryterion Webassessor|
 
@@ -960,6 +1065,11 @@ Also, passwords that are too long are still changed, so you have to reset them b
 
 |Minecraft|
 
+`Minnesota Unemployment Insurance <https://uimn.org>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Locked to *exactly* 6 chars, alphanumeric only, not special chars.
+
+|Minnesota UI|
 
 `MKB NetBankár <https://www.mkbnetbankar.hu/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1017,6 +1127,14 @@ maximum of 32 characters.
 
 |Mycanal|
 
+`MySwissLife <https://myswisslife.fr/#/login>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+User ID *has to* be 8 characters exactly, password *has to be* 8 characters and numbers only.
+
+|myswisslife-1|
+|myswisslife-2|
+
 `NBank <https://www.nbank.de/Service/Kundenportal/Zugang-zum-Kundenportal/index.jsp>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1024,6 +1142,41 @@ User ID *has to* contain special characters, password *may not* contain (basical
 
 |NBank|
 
+`NBC (National Bank of Canada) <https://www.nbc.ca>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Password length must be 8 to 25 characters
+- Password must contain at least one lower letter (any position)
+- Password must contain at least one digit (any position)
+- Password cannot contain spaces. 
+- Copy/paste is not allowed when trying to set a new password
+
+|NationalBankOfCanada|
+`Nectar API <https://api.nectar.com/oauth/authorize>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Nectar website allows strong passwords.
+However, when trying to link my Sainsbury's account, I found the API has different ideas...
+
+- Password field length capped to 16 characters
+
+|NectarApi|
+
+`Netflix <https://www.netflix.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`The help page <https://help.netflix.com/de/node/54078>`__
+and the `password reset page <https://www.netflix.com/password>`__ say:
+
+    Ihr Passwort muss zwischen 4 und 60 Zeichen lang sein und darf keine Tilde (~) enthalten.
+
+    |Netflix|
+
+Disallowing a 64-bit hex password, as generated by KeePass, ist unnecessarily restrictive.
+
+There is no apparent reason for disallowing the tilde but allowing all other special characters.
+Luckily, that rule is not enforced at all.
+It seems to be only written down to irritate customers.
 
 `Nevada DMV <https://dmvnv.com/onlineservices.htm>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1137,7 +1290,7 @@ forcing you to manually type your 32-letters-long generated password.
 Password must contain 8-30 characters, including one letter and one number.
 "Special characters allowed" seems to mean a very small handful of choices you can only find through trial and error  ``-_'.@``
 
-|Premera Blue Cross|
+|Premera|
 
 `Progressive Home by Homesite <https://progressivedirect.homesite.com/OnlineServicing/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1402,6 +1555,13 @@ password possible.
 
 |Synchrony Financial|
 
+`Taco Bell <https://www.tacobell.com/login/pw/change?token=***>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password may include special characters, except for #.
+
+|Taco Bell|
+
 `Tangerine <https://www.tangerine.ca>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1582,6 +1742,37 @@ presented in the `xkcd comic <https://xkcd.com/936/>`__ are allowed.
 
 |University of Texas as Austin|
 
+`University of Western Australia (Pheme) <https://www.pheme.uwa.edu.au/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Passwords:
+
+1. Must contain at least 8 characters;
+2. Must contain at least 3 out of 4 types of characters
+   (uppercase letters, lowercase letters, digits, special characters);
+   and
+3. Must not contain
+   "the user's account name or parts of the user's full name
+   that exceed two consecutive characters".
+
+**New passwords are silently truncated to 30 characters.**
+Inspecting the change password input field
+reveals a ``maxlength="30"`` attribute,
+but this isn't obvious to the average user because
+the field isn't physically wide enough to see the truncation.
+There is no warning or error message.
+
+If you subsequently try to login with the untruncated password,
+it doesn't work because the password input field on the *login* page
+*doesn't* have a ``maxlength="30"`` attribute
+(and neither does the input field for Outlook email).
+
+Passwords must be changed every 6 months.
+
+|University of Western Australia Pheme|
+
+|University of Western Australia Pheme inspector|
+
 `University of Windsor <https://uwindsor.teamdynamix.com/TDClient/KB/ArticleDet?ID=46793>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1649,6 +1840,14 @@ spaces, and must contain only numbers and letters. The first character
 must be a letter.
 
 |Virgin Media|
+
+Feb 2020 Update: policy remains the same but the description is hidden
+leaving you to guess the acceptable length/chars.  Users are now left
+with helpful hints after JS validation.
+
+|Virgin Media Too Long|
+
+|Virgin Media Invalid|
 
 `Virgin Mobile <https://myaccount.virginmobileusa.com/primary/my-account-settings-change-pin>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1784,6 +1983,8 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |AmeriHealth| image:: /screenshots/amerihealth.png
 .. |AmiAmi| image:: /screenshots/amiami.jpg
 .. |ANZBank| image:: /screenshots/anz_bank.png
+.. |AOK1| image:: /screenshots/aok1.png
+.. |AOK2| image:: /screenshots/aok2.png
 .. |AOL| image:: /screenshots/aol.png
 .. |Apple1| image:: /screenshots/apple1.jpg
 .. |Apple2| image:: /screenshots/apple2.png
@@ -1803,11 +2004,14 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Bendigo Bank| image:: /screenshots/bendigo_bank.png
 .. |Best Buy| image:: /screenshots/bestbuy1.png
 .. |Best Buy2| image:: /screenshots/bestbuy2.png
+.. |BinckBank| image:: /screenshots/binckbank.png
+.. |BinckBank-validity| image:: /screenshots/binckbank-validity.png
 .. |Blackrock| image:: /screenshots/blackrock.png
 .. |Bloomingdale's| image:: /screenshots/bloomingdales.png
 .. |Blue Cross Blue Shield Massachusetts| image:: /screenshots/bcbs-massachusetts.png
 .. |Boursorama| image:: /screenshots/boursorama.png
 .. |Boligøen| image:: /screenshots/boligoen.jpg
+.. |BMO Bank of Montreal| image:: /screenshots/bmo.jpg
 .. |BMW ConnectedDrive| image:: /screenshots/bmw-connected.PNG
 .. |caf.fr| image:: /screenshots/caf.png
 .. |California DMV| image:: /screenshots/ca-dmv.png
@@ -1817,6 +2021,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |CIBC| image:: /screenshots/CIBC.png
 .. |Cigna| image:: /screenshots/my.cigna.com.png
 .. |Citi| image:: /screenshots/citi.png
+.. |CloverSecurity| image:: /screenshots/cloversecurity.png
 .. |Chase| image:: /screenshots/chase.jpg
 .. |Chegg1| image:: /screenshots/chegg1.png
 .. |Chegg2| image:: /screenshots/chegg2.png
@@ -1838,15 +2043,19 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Discovery Benefits 1| image:: /screenshots/discovery-benefits-1.png
 .. |Discovery Benefits 2| image:: /screenshots/discovery-benefits-2.png
 .. |DJI| image:: /screenshots/dji-drones.png
+.. |dnevnik| image:: /screenshots/dnevnik.png
 .. |Easybank| image:: /screenshots/easybank.png
 .. |Easyjet| image:: /screenshots/easyjet.png
 .. |Dutch Tax Authorities| image:: /screenshots/belastingdienst.jpg
 .. |El Corte Ingles| image:: /screenshots/elcorteingles.png
+.. |Electronic Arts| image:: /screenshots/electronic-arts.png
 .. |EllieMae1| image:: /screenshots/elliemae1.png
 .. |EllieMae2| image:: /screenshots/elliemae2.png
 .. |EllieMae3| image:: /screenshots/elliemae3.png
 .. |e-learning (Unipd)| image:: /screenshots/elearning.math.unipd.png
+.. |ETrade| image:: /screenshots/etrade.png
 .. |EON| image:: /screenshots/eon.png
+.. |Faceit| image:: /screenshots/faceit.png
 .. |Fidelity| image:: /screenshots/fidelity.png
 .. |FIS Global| image:: /screenshots/fisglobal.png
 .. |Fundatec| image:: /screenshots/fundatec.png
@@ -1855,6 +2064,9 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Global Entry| image:: /screenshots/global-entry.png
 .. |GoDaddy| image:: /screenshots/godaddy.png
 .. |GoDaddy SFTP| image:: /screenshots/godaddy-sftp.png
+.. |GoFundMe| image:: /screenshots/gofundme.png
+.. |GreenFlag1| image:: /screenshots/green-flag-1.png
+.. |GreenFlag2| image:: /screenshots/green-flag-2.png
 .. |Her Majesty’s Revenue & Customs| image:: /screenshots/tax.service.gov.uk.png
 .. |Hetzner| image:: /screenshots/hetzner.png
 .. |IBM| image:: /screenshots/ibm.png
@@ -1884,6 +2096,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |MetLife| image:: /screenshots/metlife.png
 .. |Microsoft (work accounts)| image:: /screenshots/microsoftwork.png
 .. |Minecraft| image:: /screenshots/Minecraft.png
+.. |Minnesota UI| image:: /screenshots/minnesota_ui.png
 .. |Mindware| image:: /screenshots/mindware1.png
 .. |Mindware2| image:: /screenshots/mindware2.png
 .. |MKB NetBankár| image:: /screenshots/mkb.png
@@ -1891,7 +2104,12 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |MobileIron| image:: /screenshots/mobileiron.png
 .. |Movistar| image:: /screenshots/movistar.jpg
 .. |Mycanal| image:: /screenshots/mycanal.png
+.. |myswisslife-1| image:: /screenshots/myswisslife-1.jpg
+.. |myswisslife-2| image:: /screenshots/myswisslife-2.jpg
 .. |NBank| image:: /screenshots/nbank.jpg
+.. |NationalBankOfCanada| image:: /screenshots/nbc.png
+.. |NectarApi| image:: /screenshots/nectar-api.png
+.. |Netflix| image:: /screenshots/netflix.png
 .. |Nevada DMV| image:: /screenshots/dmvapp.nv.gov.png
 .. |NVV| image:: /screenshots/nvv.png
 .. |Omnivox| image:: /screenshots/omnivox.png
@@ -1934,6 +2152,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |SBI| image:: /screenshots/sbi.png
 .. |SunTrust| image:: /screenshots/suntrust.png
 .. |Synchrony Financial| image:: /screenshots/synchrony.png
+.. |Taco Bell| image:: /screenshots/taco-bell.png
 .. |Tangerine| image:: /screenshots/tangerine.png
 .. |Targobank| image:: /screenshots/targobank.png
 .. |T-Mobile| image:: /screenshots/tmobile.png
@@ -1954,6 +2173,8 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |United States Postal Service| image:: /screenshots/usps.png
 .. |University of California San Diego| image:: /screenshots/ucsd.png
 .. |University of Texas as Austin| image:: /screenshots/ut-austin.png
+.. |University of Western Australia Pheme| image:: /screenshots/uwa-pheme.png
+.. |University of Western Australia Pheme inspector| image:: /screenshots/uwa-pheme-inspector.png
 .. |University of Windsor| image:: /screenshots/uwindsor.png
 .. |USAA| image:: /screenshots/usaa.png
 .. |URSSAF| image:: /screenshots/urssaf.png
@@ -1962,6 +2183,8 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Vietnam Airlines| image:: /screenshots/vietnamairlines.png
 .. |Viobank| image:: /screenshots/viobank.png
 .. |Virgin Media| image:: /screenshots/virginmedia.jpg
+.. |Virgin Media Too Long| image:: /screenshots/virginmediatoolong.png
+.. |Virgin Media Invalid| image:: /screenshots/virginmediainvalid.png
 .. |Virgin Mobile| image:: /screenshots/virginmobile.png
 .. |Virgin Trains| image:: /screenshots/virgintrains.jpg
 .. |WageWorks| image:: /screenshots/wageworks.png
