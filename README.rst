@@ -52,6 +52,16 @@ could use proper grammar in their rule list.
 |Advanzia|
 
 
+`Aetna Health Insurance <https://www.aetna.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Password cannot be longer than 20 characters
+- Password cannot have spaces and more 2 characters repeated in a row
+- Password cannot have user's first name, last name or username
+
+|Aetna|
+
+
 `Air Asia <https://www.airasia.com/member/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -70,6 +80,14 @@ Why is your password invalid? It's up to you to find out!
 |Air France|
 
 
+`Air Miles <https://www.airmiles.ca/arrow/ChangePin>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Exactly 4 numbers.
+
+|Air Miles|
+
+
 `Aigües de Barcelona <https://www.aiguesdebarcelona.cat/oficinaenxarxa/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -77,6 +95,23 @@ Why is your password invalid? It's up to you to find out!
 - Only letters and numbers, without spaces
 
 |Aigues de Barcelona|
+
+
+`Alibaba <https://passport.alibaba.com/ac/password_modify.htm?fromSite=4&lang=en_US>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- At least 2 uppercase letters
+- Plus 2 lowercase letters
+- Plus 2 numbers
+- Plus 2 punctuation marks
+
+Phew, too many rules, because why not, if `Ma thinks AI stands for Alibaba Intelligence <https://www.youtube.com/watch?v=f3lUEnMaiAU>`_, then password rules can be equally intelligent too. 
+
+Also, this gibberish if you intentionally left the "confirm password" field empty and that's even after a `en_US` redirection. 
+
+- 请输入新的登录密码.
+
+|Alibaba|
 
 
 `American Express <https://sso.americanexpress.com/SSO/request?request_type=un_createid&ssolang=en_NL&inav=at_sitefooter_register>`__
@@ -431,6 +466,13 @@ plus a weird restriction that makes random generation harder.
 
 |CenturyLink|
 
+`CenturyLink Residential <https://eam.centurylink.com/eam/mySettings.do>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Your password is too long. But how long can it be? Oh, we won't tell you.
+
+|CenturyLink Residential|
+
 
 `Credit Agricole <https://www.credit-agricole.fr/ca-paris/particulier/acceder-a-mes-comptes.html0>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -547,6 +589,13 @@ Password has to be between 6 and 10 characters, can't contain any punctuation an
 
 |Coventry Building Society|
 
+`Credit Union Australia (CUA) Health <https://www.cua.com.au/health-insurance>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password must be between 7 and 10 characters, contain both an uppercase and a lowercase letter and have at least one number.
+
+|Credit Union Australia (CUA) Health|
+
 
 `Crédit Agricole Centre-Est <https://www.ca-centrest.fr>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -655,6 +704,12 @@ It's not like hashing passwords is a thing or something.
 
 |Dutch Tax Authorities|
 
+`Dwr Cymru (Welsh Water)  <https://login.dwrcymru.com/>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Limits password length to a maximum of 16 characters
+
+|dwrcymru|
 
 `Easybank (Austrian direct bank) <https://www.easybank.at/de/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -863,6 +918,22 @@ You can't use ``&<>'"\|´```, spaces and any other non-ascii character.
 |Hetzner|
 
 
+`HSA Bank <https://www.hsabank.com>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Must be minimum 12 characters
+- Must not be one of user's past 5 passwords
+- Must contain uppercase and lowercase letters
+- Must contain a number
+- Must not be the same as user's account number or login/username
+
+But also...
+
+- Cannot be longer than 20 characters
+
+|HSABank|
+
+
 `IBM <https://www.ibm.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -870,6 +941,38 @@ Password cannot be longer then 31 characters.
 Spaces, ?, ../, curly braces and double byte character not allowed
 
 |IBM|
+
+
+`IBM TSO/E Logon terminal <https://www.ibm.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It might not be a web site, but that does not make it less dumb.
+Since many don't know about IBM mainframes, it seems they don't think you need to up the policies.
+
+Default old password policy is: 6-8 characters long, A-Z, 0-9
+
+Over the last few years they have updated their policies a bit, but due to many of their
+subsystems are incompatible, they can't enforce the new options for safer passwords.
+
+|IBM-TSO|
+
+
+`ICAgile <https://member.icagile.com>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Observed on November 17, 2020:
+
+Password must contain:
+
+- 8-15 total characters
+- At least one lowercase letter
+- At least one uppercase letter
+- At least one number
+- At least one special character (e.g., !#$%^*)
+
+They don't seem to have a public registration form. You receive a registration link after completing a course with one of their accredited providers.
+
+|ICAgile|
 
 
 `IHG <https://www.ihg.com/rewardsclub/us/en/join/register>`__
@@ -1069,6 +1172,20 @@ You have to enter your 6-digit password using this Frenchy keypad.
 
 |Lowes|
 
+`Lufthansa <https://www.lufthansa.com/au/en/registration>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+- minimum of 8 character(s)
+- minimum of 1 lowercase letter(s)
+- minimum of 1 uppercase letter(s)
+- minimum of 1 number(s)
+- minimum of 1 special character (s)!\"$%&()*+,-./:;#<>?_@\\
+- does not match the Username
+- Not used before, not easy to guess
+
+|Lufthansa|
+
 
 `MarketWatch <http://www.marketwatch.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1259,6 +1376,14 @@ User ID *has to* be 8 characters exactly, password *has to be* 8 characters and 
 |myswisslife-2|
 
 
+`NBA Store <https://store.nba.com>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Password cannot be longer than 20 characters
+
+|NBAStore|
+
+
 `NBank <https://www.nbank.de/Service/Kundenportal/Zugang-zum-Kundenportal/index.jsp>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1319,12 +1444,30 @@ It seems to be only written down to irritate customers.
 |Nevada DMV|
 
 
+`NordVPN <https://nordvpn.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Claims to protect your security. Can't even hash a password.
+
+- Password cannot be longer than 48 characters.
+
+|NordVPN|
+
+
 `NVV (Nordhessische VerkehrsVerbund) <https://nvv.mobilesticket.de/ticketportal/register.jsf>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |NVV|
 
 Password length must be 4 to 10 characters with only a few special characters allowed.
+
+
+`O2 Spain <https://o2online.es>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When registering in *Mi O2* app, password length must be exactly 7 or 8 characters (numbers and letters only). As O2 is part of Telefónica (Movistar), it seems to use the same backend (at least in Spain), so it has the `same password requirements <#movistar>`__.
+
+|O2-Spain|
 
 
 `Omnivox <https://cegep-ste-foy.omnivox.ca/Login/Account/Login>`__
@@ -1505,6 +1648,15 @@ Your new password must be at least 4 characters long and no longer than 40 chara
 |Roll 20|
 
 
+`Runescape <https://secure.runescape.com/m=account-creation/create_account>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A minimum password length of 5, and maximum password length of 20.    
+Does not tell you that your password is NOT case sensitive.   
+Hidden requirements: Alphanumeric only, no symbols, no repeated characters.
+
+|Runescape|
+
 `Rushmore Loan Management Services <https://rushmore.customercarenet.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1557,6 +1709,27 @@ Can't repeat same character more than 3 times in a row
 Cannot be or contain your username or email address"
 
 |Sears|
+
+`SecureAccess Washington <https://secureaccess.wa.gov>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Central authentication for all Washington State services
+(DoL, ESD, etc).
+
+Password must have *exactly* 10 characters, but form happily
+lets you enter more and only throws errors after submit, 
+providing no useful feedback.
+
+|SecureAccess Washington|
+
+
+`Seur <https://www.seur.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password must be between 8 and 12 characters...
+Also no symbols are allowed. But this isn't displayed.
+
+|Seur|
 
 
 `Sharekhan <https://www.sharekhan.com/>`__
@@ -2202,10 +2375,13 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Admiral| image:: /screenshots/admiral.png
 .. |ADP| image:: /screenshots/adp.png
 .. |Advanzia| image:: /screenshots/advanzia.png
+.. |Aetna| image:: /screenshots/aetna.png
 .. |Aigues de Barcelona| image:: /screenshots/aigues_barcelona.png
 .. |Air Asia| image:: /screenshots/airaisa.png
 .. |Air France| image:: /screenshots/airfrance.png
+.. |Air Miles| image:: /screenshots/airmiles.png
 .. |ameli.fr| image:: /screenshots/ameli.fr.png
+.. |Alibaba| image:: /screenshots/alibaba.png
 .. |American Express| image:: /screenshots/american-express.jpg
 .. |AmeriHealth| image:: /screenshots/amerihealth.png
 .. |AmiAmi| image:: /screenshots/amiami.jpg
@@ -2245,6 +2421,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Canada Revenue Agency| image:: /screenshots/CanadaRevenueAgency.png
 .. |Capital One| image:: /screenshots/capitalone.png
 .. |CenturyLink| image:: /screenshots/centurylink.png
+.. |CenturyLink Residential| image:: /screenshots/centurylink-residential.png
 .. |CIBC| image:: /screenshots/CIBC.png
 .. |Cigna| image:: /screenshots/my.cigna.com.png
 .. |Citi| image:: /screenshots/citi.png
@@ -2258,6 +2435,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Copart| image:: /screenshots/copart.png
 .. |Copyright.gov| image:: /screenshots/copyright-gov.png
 .. |Coventry Building Society| image:: /screenshots/coventry-building-society.png
+.. |Credit Union Australia (CUA) Health| image:: /screenshots/cua-health.png
 .. |Credit Agricole| image:: /screenshots/ca-paris.png
 .. |csu.edu.au| image:: /screenshots/csu.edu.au.png
 .. |ca-centrest.fr| image:: /screenshots/ca-centrest.png
@@ -2271,6 +2449,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Discovery Benefits 2| image:: /screenshots/discovery-benefits-2.png
 .. |DJI| image:: /screenshots/dji-drones.png
 .. |dnevnik| image:: /screenshots/dnevnik.png
+.. |dwrcymru| image:: /screenshots/dwrcymru.png
 .. |Easybank| image:: /screenshots/easybank.png
 .. |Easyjet| image:: /screenshots/easyjet.png
 .. |Dutch Tax Authorities| image:: /screenshots/belastingdienst.jpg
@@ -2296,7 +2475,10 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |GreenFlag2| image:: /screenshots/green-flag-2.png
 .. |Her Majesty’s Revenue & Customs| image:: /screenshots/tax.service.gov.uk.png
 .. |Hetzner| image:: /screenshots/hetzner.png
+.. |HSABank| image:: /screenshots/hsabank.png
 .. |IBM| image:: /screenshots/ibm.png
+.. |IBM-TSO| image:: /screenshots/ibm_tso_logon.png
+.. |ICAgile| image:: /screenshots/icagile.png
 .. |IHG| image:: /screenshots/ihg.png
 .. |Inria| image:: /screenshots/inria.png
 .. |INSS| image:: /screenshots/inss.png
@@ -2315,6 +2497,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |LibraryThing| image:: /screenshots/librarything.png
 .. |Lloyds| image:: /screenshots/lloyds.png
 .. |Lowes| image:: /screenshots/lowes.png
+.. |Lufthansa| image:: /screenshots/lufthansa.png
 .. |MarketWatch| image:: /screenshots/marketwatch.png
 .. |ME Bank| image:: /screenshots/me-bank.png
 .. |MLB| image:: /screenshots/mlb.png
@@ -2335,12 +2518,15 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |MyPrepaidCenter| image:: /screenshots/myprepaidcenter.png
 .. |myswisslife-1| image:: /screenshots/myswisslife-1.jpg
 .. |myswisslife-2| image:: /screenshots/myswisslife-2.jpg
+.. |NBAStore| image:: /screenshots/nbastore.png
 .. |NBank| image:: /screenshots/nbank.jpg
 .. |NationalBankOfCanada| image:: /screenshots/nbc.png
 .. |NectarApi| image:: /screenshots/nectar-api.png
 .. |Netflix| image:: /screenshots/netflix.png
 .. |Nevada DMV| image:: /screenshots/dmvapp.nv.gov.png
+.. |NordVPN| image:: /screenshots/nordvpn.png
 .. |NVV| image:: /screenshots/nvv.png
+.. |O2-Spain| image:: /screenshots/o2-spain.png
 .. |Omnivox| image:: /screenshots/omnivox.png
 .. |Onleihe| image:: /screenshots/onleihe.png
 .. |Oracle| image:: /screenshots/oracle.png
@@ -2362,11 +2548,14 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Rediff| image:: /screenshots/rediff.png
 .. |Roll 20| image:: /screenshots/Roll20.png
 .. |Rogers| image:: /screenshots/rogers.png
+.. |Runescape| image:: /screenshots/runescape.png
 .. |Rushmore| image:: /screenshots/rushmore-loan-managment-services.png
 .. |SAP Cloud Appliance Library| image:: /screenshots/sapcal.png
 .. |Scandinavian Airlines| image:: /screenshots/sas.no.png
 .. |Safeway| image:: /screenshots/safeway.png
 .. |Sears| image:: /screenshots/sears.png
+.. |SecureAccess Washington| image:: /screenshots/secureaccess-wa.png
+.. |Seur| image:: /screenshots/seur.png
 .. |Sharekhan| image:: /screenshots/sharekhan.png
 .. |Singapore Airlines| image:: /screenshots/singaporeairlines.png
 .. |Sky Ticket| image:: /screenshots/sky-ticket.png
