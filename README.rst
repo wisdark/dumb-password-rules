@@ -542,6 +542,7 @@ A max of 12 characters... Can't handle most symbols (only 5 supported). At least
 * Can't use ANY special characters (although, adding special characters increases the "password strength" meter?!)
 * Allows for a minimum password length of 6 characters
 * No runs of more than two identical characters (eg. "aaa" is not allowed.)
+* Does not allow you to paste passwords.
 
 |Citi|
 
@@ -787,6 +788,22 @@ You must reduce your password to 26 characters in order to login with a token.
 |ETrade|
 
 
+`Equifax - The Work Number <https://secure.theworknumber.talx.com>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Eight to sixteen characters, numeric digits only, not the same as the User ID.
+
+* Number of permutations: 1E+16
+* Number of permutations for the weakest length: 1E+8
+* vs permutations for a 8-16 password using standard characters: 4E+31
+* vs permutations for the weakest length of 8 using standard characters: 7E+15
+* Other issues: allows and encourages the use of sequences like "12345678", SSN, DOB, today's date
+* At stake: last 4 digits of SSN, current and past addresses, and detailed work history of millions of Americans, down to how much their paycheck was in the third week of September 2007
+* Past security screwups by this company: https://en.wikipedia.org/wiki/Equifax#Security_Failings
+
+|EquifaxTheWorkNumber|
+
+
 `FACE IT Ltd. (Faceit) <https://www.faceit.com/en/signup>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1015,6 +1032,14 @@ OK, because everybody has 2FA.
 |ING Romania|
 
 
+`Inpost <https://inpost.pl/en/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Allows between 8 to 16 characters. Password is being used to log in and view packages sent to you, or for shipping packages.
+
+|Inpost|
+
+
 `Inria <https://vpn1-roc.national.inria.fr/+CSCOE+/logon.html>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1187,6 +1212,15 @@ You have to enter your 6-digit password using this Frenchy keypad.
 |Lufthansa|
 
 
+`M and M Direct <https://www.mandmdirect.com>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Maximum length of 24 characters
+- Cannot contain special characters, eg. ! # $ " @
+
+|M and M Direct|
+
+
 `MarketWatch <http://www.marketwatch.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1335,7 +1369,7 @@ surname of the user with some characters replaced by digits :)
 
 Has been that way for more than 10 years.
 
-|MobileIron|
+|Movistar|
 
 
 `MobileIron MDM <https://www.mobileiron.com/>`__
@@ -1345,8 +1379,17 @@ You can't make this up - no dictionary words, no more than 2 repeating
 characters, no alphabetic sequences, no whitespace, 3 character sets,
 maximum of 32 characters.
 
+|MobileIron|
 
-|Movistar|
+
+`Mobility <https://www.mobility.ch/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The username is the customer number, which is sequential and cannot be changed, currently 7 digits long for new customers.
+
+The password has to be exactly 6 digits long, only numbers allowed.
+
+|Mobility|
 
 
 `Mycanal <https://www.mycanal.fr/>`__
@@ -1594,13 +1637,17 @@ However, when you log in, it only allows passwords up to 12 characters in length
 
 
 `Raiffeisen Bank Serbia <https://rol.raiffeisenbank.rs/Retail/home/login/>`__
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There are a couple of password limitations when creating a new account on
-Raiffeisen Bank Serbia on-line banking portal. Password length is limited to
-minimum 8 and maximum 16 characters. Also, minimum uppercase letters 1, minimum
-lowercase letter 1, minimum digits 2, maximum consecutive identical characters 4
-and first character must be a letter. Oh... And, no special characters!
+There are a couple of password limitations when creating a new account (and
+changing existing password) on Raiffeisen Bank Serbia on-line banking portal.
+Password length is limited to minimum 8 and maximum 16 characters. Also, minimum
+uppercase letters 1, minimum lowercase letter 1, minimum digits 2, maximum
+consecutive identical characters 4 and first character must be a letter.
+Oh... And, no special characters!
+
+Image shows the password update screen, but the requirements are the same
+for account creation.
 
 |Raiffeisen Bank Serbia|
 
@@ -2219,6 +2266,16 @@ It took under 5 minutes to find the bug after looking at the source for the firs
 |Viobank|
 
 
+`Vip Mobile Serbia <https://www.vipmobile.rs/privatni/sso/registracija>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Vip mobile Serbia is a mobile provider in Serbia that imposes poor password rules.
+
+Translation: "Length of the password must be between 8 and 20 characters and can only have letters and digits."
+
+|Vip Mobile Serbia|
+
+
 `Virgin Media <https://my.virginmedia.com/forgot-details/reset>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -2452,6 +2509,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |dwrcymru| image:: /screenshots/dwrcymru.png
 .. |Easybank| image:: /screenshots/easybank.png
 .. |Easyjet| image:: /screenshots/easyjet.png
+.. |EquifaxTheWorkNumber| image:: /screenshots/EquifaxTheWorkNumber.png
 .. |Dutch Tax Authorities| image:: /screenshots/belastingdienst.jpg
 .. |El Corte Ingles| image:: /screenshots/elcorteingles.png
 .. |Electronic Arts| image:: /screenshots/electronic-arts.png
@@ -2480,6 +2538,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |IBM-TSO| image:: /screenshots/ibm_tso_logon.png
 .. |ICAgile| image:: /screenshots/icagile.png
 .. |IHG| image:: /screenshots/ihg.png
+.. |Inpost| image:: /screenshots/inpost.png
 .. |Inria| image:: /screenshots/inria.png
 .. |INSS| image:: /screenshots/inss.png
 .. |Intel| image:: /screenshots/intel.jpg
@@ -2498,6 +2557,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Lloyds| image:: /screenshots/lloyds.png
 .. |Lowes| image:: /screenshots/lowes.png
 .. |Lufthansa| image:: /screenshots/lufthansa.png
+.. |M and M Direct| image:: /screenshots/m-and-m-direct.png
 .. |MarketWatch| image:: /screenshots/marketwatch.png
 .. |ME Bank| image:: /screenshots/me-bank.png
 .. |MLB| image:: /screenshots/mlb.png
@@ -2513,6 +2573,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |MKB NetBankár| image:: /screenshots/mkb.png
 .. |Mobi Bike Share| image:: /screenshots/mobibikes.png
 .. |MobileIron| image:: /screenshots/mobileiron.png
+.. |Mobility| image:: /screenshots/mobility.png
 .. |Movistar| image:: /screenshots/movistar.jpg
 .. |Mycanal| image:: /screenshots/mycanal.png
 .. |MyPrepaidCenter| image:: /screenshots/myprepaidcenter.png
@@ -2601,6 +2662,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Very| image:: /screenshots/very.png
 .. |Vietnam Airlines| image:: /screenshots/vietnamairlines.png
 .. |Viobank| image:: /screenshots/viobank.png
+.. |Vip Mobile Serbia| image:: /screenshots/vip_mobile_srb.png
 .. |Virgin Media| image:: /screenshots/virginmedia.jpg
 .. |Virgin Media Too Long| image:: /screenshots/virginmediatoolong.png
 .. |Virgin Media Invalid| image:: /screenshots/virginmediainvalid.png
