@@ -1564,6 +1564,15 @@ four character range with a bunch of other stupid rules? Shocking.
 |Parnassus|
 
 
+`Parsec <https://parsec.app/signup>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A service for screen sharing and enabling online multiplayer gaming, when the software itself
+only supports offline multiplayer.
+
+|Parsec|
+
+
 `PayPal <https://www.paypal.com/welcome/signup>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1920,6 +1929,14 @@ Your password must:
 
 |Standard Chartered Bank|
 
+`SunLife <https://www.sunlife.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- 8 to 10 characters
+- At least 1 letter and 1 number
+- No spaces, symbols, or accents
+
+|SunLife|
 
 `SunTrust <https://www.suntrust.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2594,6 +2611,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Origin| image:: /screenshots/origin.png
 .. |PagoMisCuentas| image:: /screenshots/pagomiscuentas.png
 .. |Parnassus| image:: /screenshots/parnassus.png
+.. |Parsec| image:: /screenshots/parsec.png
 .. |PayPal| image:: /screenshots/paypal.png
 .. |Paytm| image:: /screenshots/paytm.png
 .. |PCPartPicker| image:: /screenshots/pcpartpicker.png
@@ -2629,6 +2647,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Sprint| image:: /screenshots/sprint.png
 .. |Standard Chartered Bank| image:: /screenshots/standard-chartered-bank.png
 .. |SBI| image:: /screenshots/sbi.png
+.. |SunLife| image:: /screenshots/sunlife.png
 .. |SunTrust| image:: /screenshots/suntrust.png
 .. |Synchrony Financial| image:: /screenshots/synchrony.png
 .. |Taco Bell| image:: /screenshots/taco-bell.png
