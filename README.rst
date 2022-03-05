@@ -114,6 +114,14 @@ Also, this gibberish if you intentionally left the "confirm password" field empt
 |Alibaba|
 
 
+`American Airlines <https://https://www.aa.com/loyalty/login>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Between 6 and 16 characters
+
+|American Airlines|
+
+
 `American Express <https://sso.americanexpress.com/SSO/request?request_type=un_createid&ssolang=en_NL&inav=at_sitefooter_register>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -156,6 +164,17 @@ Your password needs to be between 6 and 12 characters long, must contain only le
 
 |AmiAmi|
 
+`Ancestry <https://www.ancestry.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password:
+
+- Must be at least 8 characters long
+- Must contain at least 1 number
+- Must contain at least 1 letter or special character
+- Must not be a well known or common password
+
+|Ancestry|
 
 `ANZ Bank <https://anz.com.au/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -256,7 +275,12 @@ The only special characters allowed are underscores and hyphens.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 20 character max and lots of special character restrictions.
-Bank of America - keeping your money safe.
+Bank of America - keeping your money safe. 
+
+Also: If you paste a password greater than 20 characters, 
+the form truncates it without telling you or giving an 
+error.
+
 
 |Bank of America|
 
@@ -485,6 +509,17 @@ Letters and numbers only, no symbols. Also an undocumented maximum of 12 charact
 
 |Capital One|
 
+`CENLAR <https://www.loanadministration.com/cenlarfsb/#/login>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Your password can meet all the requirements in the list and still be invalid due to
+an unspecified rule: any "special characters" that are not listed in the help text
+are not allowed. Worse, it provides no useful feedback other than the "New Password"
+field is red.
+
+|CENLAR|
+
 
 `CenturyLink <https://eam.centurylink.com/eam/login.do>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -567,6 +602,12 @@ Does not allow simple characters and sequences such as '4587' or 'efgh' in passw
 
 .. image:: screenshots/coil.png
 
+`College Board <https://www.collegeboard.org>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password must be 9-30 characters with at least one upper case letter, one lower case letter, one number and one special character (no spaces) and be different than your username.
+
+|collegeboard|
 
 
 `Comcast <https://customer.xfinity.com/#/settings/security/xfinity-access/password>`__
@@ -602,6 +643,22 @@ Also Copart: "We're gonna need you to keep your password between 5-10 characters
 I wonder if they cooperate with NSA to enforce the password rules.
 
 |Copyright.gov|
+
+
+`Costco.com <https://www.costco.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Due to Costco's short max password length of 16 characters, I strongly recommend using a password manager to make a random password to satisfy all of these conditions below:
+
+* Use between 8 and 16 characters
+* Include at least one lowercase (a-z) and one uppercase letter (A-Z)
+* Include at least one special character (e.g. !@#$&) - i.e., any symbol above the 0-9 keys)
+* Does not contain blank spaces or the following special characters: < > ,
+* Include at least one digit (0-9)
+
+For the record, at least Costco.com has greatly improved after the summer of 2021 - before that, the site used to prohibit copying and pasting passwords, which prevented password managers from working properly. I believe the max password length was also longer before the summer of 2021 (either 20 or 32 characters), but I cannot confirm this since I never took a screenshot.
+
+|Costco.com|
 
 
 `Coventry Building Society <https://www.coventrybuildingsociety.co.uk/>`__
@@ -1165,6 +1222,22 @@ restrictions too:
 
 |Interactive Brokers|
 
+`Irodoricomics <https://irodoricomics.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A website to buy english-localized doujins. The password must be between 4 and 20 characters long
+
+|Irodoricomics|
+
+`IRS <irs.gov>`__
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password rules:
+
+- Between 8 and 32 characters long
+- Must contain at least one numeric and one special character (!@#$%&*)
+- At least one uppercase and at least one lowercase letter
+
+|IRS|
 
 `Izly by Crous <https://mon-espace.izly.fr/Home/Logon>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1216,6 +1289,13 @@ I was quite suprised to see this when I was registering for my Google Profession
 
 |Kryterion Webassessor|
 
+`La Banque Postale <https://www.labanquepostale.fr/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password must be 6 digits and entered on custom pad.
+
+|La Banque Postale|
+
 
 `LCL <https://www.lcl.fr>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1223,6 +1303,13 @@ I was quite suprised to see this when I was registering for my Google Profession
 You have to enter your 6-digit password using this Frenchy keypad.
 
 |lcl.fr|
+
+`Liberty Mutual <https://www.libertymutual.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Must not contain spaces or the following characters: @/\*%<&+>
+
+|libertymutual|
 
 
 `LibraryThing <https://www.librarything.com/>`__
@@ -1479,6 +1566,25 @@ User ID *has to* be 8 characters exactly, password *has to be* 8 characters and 
 |myswisslife-1|
 |myswisslife-2|
 
+`NASA Earth Data <https://urs.earthdata.nasa.gov/users/new>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Username must:
+
+- Be a Minimum of 4 characters
+- Be a Maximum of 30 characters
+- Use letters, numbers, periods, and underscores
+- Not contain any blank spaces
+- Not begin, end or contain two consecutive special characters(._)
+
+Password must contain:
+
+- Minimum of 8 characters
+- One Uppercase letter
+- One Lowercase letter
+- One Number
+
+|NASA Earth Data|
 
 `NBA Store <https://store.nba.com>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1638,6 +1744,8 @@ only supports offline multiplayer.
 
 Must be between 8 and 20 characters, no spaces, uppercase and lowercase, one symbol...
 
+The rule limits special characters to !@#$%^&*(). but my current password has a "-" in it so someone decided to restrict this further which is totally backwards. Things are meant to get better not worse!
+
 |PayPal|
 
 
@@ -1678,6 +1786,20 @@ They also block pasting on the password confirmation field,
 forcing you to manually type your 32-letters-long generated password.
 
 |PoleEmploi|
+
+
+`Polytechnique Montreal <https://www.polymtl.ca/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Passwords must have a minimum length of 8 characters
+Passwords must have a maximum length of 30 characters
+Passwords must contain a minimum of 2 digits
+Passwords must contain a minimum of 2 letters
+Password must be different than the last one used 
+Passwords may contain these special characters (! & % $)
+
+
+|PolyMTL|
 
 
 `Premera Blue Cross <https://account.premera.com/>`__
@@ -2122,6 +2244,16 @@ Your password must:
 |Techcombank|
 
 
+`Telcel <https://www.mitelcel.com/mitelcel/login>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- The username is the cell phone number (easy to get)
+- The company creates a password between 8 and 12 characters for you
+- Password must contain at least 1 capital letter and no special characters
+
+|Telcel|
+
+
 `Telekom/T-Systems MyWorkplace <https://www.websso.t-systems.com/MyWorkplace/General/TSIPageContainer.aspx>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -2552,9 +2684,11 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Air Miles| image:: /screenshots/airmiles.png
 .. |Alibaba| image:: /screenshots/alibaba.png
 .. |ameli.fr| image:: /screenshots/ameli.fr.png
+.. |American Airlines| image:: /screenshots/american_airlines.png
 .. |American Express| image:: /screenshots/american-express.jpg
 .. |AmeriHealth| image:: /screenshots/amerihealth.png
 .. |AmiAmi| image:: /screenshots/amiami.jpg
+.. |Ancestry| image:: /screenshots/ancestry.png
 .. |ANZBank| image:: /screenshots/anz_bank.png
 .. |AOK1| image:: /screenshots/aok1.png
 .. |AOK2| image:: /screenshots/aok2.png
@@ -2593,6 +2727,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |California DMV| image:: /screenshots/ca-dmv.png
 .. |Canada Revenue Agency| image:: /screenshots/CanadaRevenueAgency.png
 .. |Capital One| image:: /screenshots/capitalone.png
+.. |CENLAR| image:: /screenshots/cenlar.png
 .. |CenturyLink| image:: /screenshots/centurylink.png
 .. |CenturyLink Residential| image:: /screenshots/centurylink-residential.png
 .. |Charles Sturt University| image:: /screenshots/csu.edu.au.png
@@ -2604,10 +2739,12 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Cigna| image:: /screenshots/my.cigna.com.png
 .. |Citi| image:: /screenshots/citi.png
 .. |CloverSecurity| image:: /screenshots/cloversecurity.png
+.. |collegeboard| image:: /screenshots/collegeboard.png
 .. |Comcast| image:: /screenshots/comcast.png
 .. |Commsec| image:: /screenshots/commsec.png
 .. |Copart| image:: /screenshots/copart.png
 .. |Copyright.gov| image:: /screenshots/copyright-gov.png
+.. |Costco.com| image:: /screenshots/Costco.com.png
 .. |Coventry Building Society| image:: /screenshots/coventry-building-society.png
 .. |Credit Agricole| image:: /screenshots/ca-paris.png
 .. |Credit Union Australia (CUA) Health| image:: /screenshots/cua-health.png
@@ -2668,13 +2805,17 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |INSS| image:: /screenshots/inss.png
 .. |Intel| image:: /screenshots/intel.jpg
 .. |Interactive Brokers| image:: /screenshots/interactive_brokers.png
+.. |Irodoricomics| image:: /screenshots/irodoricomics.png
+.. |IRS| image:: /screenshots/irs.png
 .. |Izly by Crous| image:: /screenshots/izly-by-crous.png
 .. |Jitterbit| image:: /screenshots/jitterbit.png
 .. |Keimyung1| image:: /screenshots/keimyung1.png
 .. |Keimyung2| image:: /screenshots/keimyung2.png
 .. |Keimyung3| image:: /screenshots/keimyung3.png
 .. |Kryterion Webassessor| image:: /screenshots/webassessor.png
+.. |La Banque Postale| image:: /screenshots/labanquepostale.png
 .. |lcl.fr| image:: /screenshots/lcl.png
+.. |libertymutual| image:: /screenshots/libertymutual.png
 .. |LibraryThing| image:: /screenshots/librarything.png
 .. |Lloyds| image:: /screenshots/lloyds.png
 .. |Lowes| image:: /screenshots/lowes.png
@@ -2703,6 +2844,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |myswisslife-1| image:: /screenshots/myswisslife-1.jpg
 .. |myswisslife-2| image:: /screenshots/myswisslife-2.jpg
 .. |MyWorkplace| image:: /screenshots/myworkplace.png
+.. |NASA Earth Data| image:: /screenshots/nasaearthdata.png
 .. |NationalBankOfCanada| image:: /screenshots/nbc.png
 .. |NBAStore| image:: /screenshots/nbastore.png
 .. |NBank| image:: /screenshots/nbank.jpg
@@ -2727,6 +2869,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |PizzaHut-2| image:: /screenshots/pizzahut2.png
 .. |PizzaHut-3| image:: /screenshots/pizzahut3.png
 .. |PoleEmploi| image:: /screenshots/pole-emploi.png
+.. |PolyMTL| image:: /screenshots/PolyMTL.png
 .. |Premera| image:: /screenshots/premera.png
 .. |Progressive Home by Homesite| image:: /screenshots/progressive-homesite.png
 .. |push-tan| image:: /screenshots/push-tan.png
@@ -2768,6 +2911,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Tangerine| image:: /screenshots/tangerine.png
 .. |Targobank| image:: /screenshots/targobank.png
 .. |Techcombank| image:: /screenshots/techcombank.png
+.. |Telcel| image:: /screenshots/Telcel.png
 .. |Telekom/T-Systems MyWorkplace| image:: /screenshots/myworkplace.png
 .. |testpreptraining| image:: /screenshots/testpreptraining.png
 .. |ThamesWater| image:: /screenshots/ThamesWater.png
