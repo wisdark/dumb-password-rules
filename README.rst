@@ -309,6 +309,18 @@ tho.
 |Banco Mercantil|
 
 
+`Banco Nacional (Costa Rica National Bank) <https://www.bncr.fi.cr/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Between 8 and 16 characters.
+Must have 4 numbers and 4 letters.
+Must not contain same letter or number in consecutive order.
+Can't contain vocal letters neither the letter Ñ.
+Password can't be the same as the previous 6 used.
+
+|Banco Nacional CR|
+
+
 `Bank Millennium <https://www.bankmillennium.pl/osobiste2/Retail/Login/MulticodeRequest>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -536,6 +548,12 @@ Your password is too long. But how long can it be? Oh, we won't tell you.
 
 |CenturyLink Residential|
 
+`CGHS <https://cghs.nic.in/change%20password/upass.jsp>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Can't use any special characters except @ $ # ? _ * &
+
+|CGHS|
 
 `Charles Sturt University <https://www.csu.edu.au/division/dit/services/services/access-and-logins/password-management>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -595,6 +613,13 @@ A max of 12 characters... Can't handle most symbols (only 5 supported). At least
 
 |CloverSecurity|
 
+`CodePen <https://codepen.io/accounts/signup/user/free>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The password should be of atleast 8 characters and must include a number, special character, an upper as well as a lowercase letter
+
+|CodePen|
+
 `Coil <https://coil.com/signup?type=creator>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -636,6 +661,12 @@ Also Copart: "We're gonna need you to keep your password between 5-10 characters
 
 |Copart|
 
+`Coppell, TX - Water Utility <https://munselfservice.coppelltx.gov/prod/tyleridcore/userprovisioning/#/register/new>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Local Utility with a password restriction of 30 characters. Better than some for sure, but still dumb.
+
+|CoppellWaterUtility|
 
 `Copyright.gov <https://www.copyright.gov/eco/help-password-userid.html>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -762,6 +793,15 @@ It's a good thing they don't store personal information such as your passport nu
 |Delta|
 
 
+`Deutsche Kreditbank AG (DKB) <https://dkb.de>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Passwords for the online banking web frontend do not have a max length constraint, but using the same password to
+log in to the official iOS DKB app requires the password to be no longer than 38 characters.
+
+|dkb_app|
+
+
 `Discovery Benefits <https://benefitslogin.discoverybenefits.com/Login.aspx>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -886,6 +926,13 @@ Reset uses a Security Question, and you have to choose from a list of 5.
 |EllieMae2|
 |EllieMae3|
 
+`Entwickler.de <https://entwickler.de>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Your password must be 12-20 characters.
+
+|Entwickler.de|
+
 
 `EON <https://www.eonenergy.com/for-your-home/your-account/forgotten-password/non-link-reset/Reset>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -918,6 +965,14 @@ Minimum 4 and maximum 30 chars. Use only letters (a-z), numbers (0-9) and unders
 
 |Eurocircuits|
 
+`Express Energy <https://www.myexpressenergy.com/account-register>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Retail Electricity Provider (REP) participating in ERCOT.
+
+Minimum 6, maximum 10. Stated requirement of numbers and letters, but special characters are accepted.
+
+|ExpressEnergy|
 
 `FACE IT Ltd. (Faceit) <https://www.faceit.com/en/signup>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -960,6 +1015,14 @@ Has to be between 6 and *30* characters, needs to have a number, letter, capital
 Must be exactly 6 alphanumeric characters, does not show special characters are not allowed, username is your social security number (easily searchable) and the form is sent over plain HTTP. Did I mention this company applies college entrance exams for **Computer Science** nationwide in Brazil?
 
 |Fundatec|
+
+
+`GameFly <https://www.gamefly.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password is 6-12 characters with no other restrictions.  You can easily do 6 numbers, 6 lowercase letters, etc.
+
+|GameFly|
 
 
 `Gebührenfrei MasterCard <https://www.gebuhrenfrei.com/>`__
@@ -1026,12 +1089,12 @@ Max 14 characters for the most important password in your shared hosting environ
 |GreenFlag2|
 
 
-`Her Majesty’s Revenue & Customs (UK Tax) <https://www.tax.service.gov.uk/government-gateway-registration-frontend?accountType=individual&continue=%2Fpersonal-account%2Fdo-uplift&origin=unknown>`__
+`HM Revenue & Customs (UK Tax) <https://www.tax.service.gov.uk/government-gateway-registration-frontend?accountType=individual&continue=%2Fpersonal-account%2Fdo-uplift&origin=unknown>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We store basically all of your data, but we can't store your password.
 
-|Her Majesty’s Revenue & Customs|
+|HM Revenue & Customs|
 
 
 `Hetzner <https://hetzner.com>`__
@@ -1114,6 +1177,22 @@ They don't seem to have a public registration form. You receive a registration l
 
 |IHG|
 
+`IKEA <https://www.ikea.com/in/en/profile/signup/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dumb restriction for consecutive similar characters. Wonder if someone got more that 2 identical characters in their name then
+it won't allow you to even use name in password. 
+
+Password must contain: 
+
+- 8-20 characters
+- **No more than 2 identical characters in a row**
+- A lowercase letter (a-z)
+- An uppercase letter (A-Z)
+- Number or special character
+
+|IKEA|
+
 
 `ING a dutch bank in almost 50 countries <https://www.ing.nl/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1192,12 +1271,21 @@ The National Social Security Institute (INSS) is an autarchy of the Government o
 
 |INSS|
 
-
 `Intel <https://www-ssl.intel.com/content/www/uk/en/my-intel/reseller-sign-in-help.html>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 |Intel|
 
+`Intelink Passport <https://passport.intelink.gov>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Intelink is a group of "secure" intranets used by the United States Intelligence Community. Passport is
+an identity and access management service for Intelink.
+
+Rule #3 prohibits three or more consecutive uppercase, lowercase, or digit characters, even if those
+characters are not the same. For example, a password with "ABC" or "829" anywhere in it would not be allowed.
+
+|Intelink|
 
 `Interactive Brokers <https://ndcdyn.interactivebrokers.com/Universal/servlet/Application.ApplicationSelector>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1255,6 +1343,15 @@ How convenient indeed.
 Oh and also look we got pages **NOT TRANSLATED IN FRENCH** because duh.
 
 |Izly by Crous|
+
+
+`Jaa Lifestyle <https://www.jaalifestyle.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+When we try to change password and accidentally gave a wrong password for confirm password.
+Lets try to read and figure out what they are trying to point out.
+
+|Jaa|
 
 
 `Jitterbit <https://www.jitterbit.com/>`__
@@ -1429,6 +1526,12 @@ the Chrome extension Don't Fuck With Paste.
 
 |MetLife|
 
+`Michigan.gov <https://milogin.michigan.gov/uisecure/selfservice/anonymous/register.do>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Must use special characters, but only from this list of stuff we think is safe or whatever.
+
+|Michigan.gov|
 
 `Microsoft (e company store) <https://store.ecompanystore.com/microsoftevents/Shop/Register/PASSHOLDER#/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1625,6 +1728,21 @@ However, when trying to link my Sainsbury's account, I found the API has differe
 |NectarApi|
 
 
+`NetBank (Commonwealth Bank of Australia) <https://www.my.commbank.com.au/netbank>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+When resetting your NetBank password, the website only informs you that you can create an alphanumeric password, despite the fact that you can use special characters.
+And also, it's password strength calculation is shit.
+An 155 bits of entropy password is "weak."
+This isn't the worst I've seen, but on a bank, it's just bad.
+
+- Password length capped to 16 characters (min. 8)
+- Disallows use of <>^{}~= (interestingly, not quotes. so I wonder why these aren't allowed?)
+- Must include at least one number
+
+|NetBank-overview|
+|NetBank-info|
+
+
 `Netflix <https://www.netflix.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1633,13 +1751,21 @@ and the `password reset page <https://www.netflix.com/password>`__ say:
 
     Ihr Passwort muss zwischen 4 und 60 Zeichen lang sein und darf keine Tilde (~) enthalten.
 
-    |Netflix|
+|Netflix|
 
 Disallowing a 64-bit hex password, as generated by KeePass, ist unnecessarily restrictive.
 
 There is no apparent reason for disallowing the tilde but allowing all other special characters.
 Luckily, that rule is not enforced at all.
 It seems to be only written down to irritate customers.
+
+
+`NetworkRail Open Data Feeds <https://datafeeds.networkrail.co.uk>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Does require special characters but limits password length to 20.
+
+|NetworkRail|
 
 
 `Nevada DMV <https://dmvnv.com/onlineservices.htm>`__
@@ -1656,8 +1782,6 @@ It seems to be only written down to irritate customers.
 
 `NordVPN <https://nordvpn.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Claims to protect your security. Can't even hash a password.
 
 - Password cannot be longer than 48 characters.
 
@@ -1737,7 +1861,6 @@ A service for screen sharing and enabling online multiplayer gaming, when the so
 only supports offline multiplayer.
 
 |Parsec|
-
 
 `PayPal <https://www.paypal.com/welcome/signup>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1989,6 +2112,13 @@ providing no useful feedback.
 
 |SecureAccess Washington|
 
+`Sephora <https://www.sephora.com/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password must be between 6 and 12 characters. No other rules
+specified.
+
+|Sephora|
 
 `Seur <https://www.seur.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2006,6 +2136,26 @@ Also no symbols are allowed. But this isn't displayed.
 - At most 12 characters.
 
 |Sharekhan|
+
+
+`SielteID <https://myid.sieltecloud.it/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Sielte is one of the four Italian digital identity providers of level 3 (the highest available).
+
+The rules are as such:
+
+- At least 8 characters
+- At most 16 characters
+- Must have both lower and upper characters
+- Must have one or more digits and one or more of the following "special characters": `~!@#$%^&*()_-+={}[]\|:;"'<>,.?/-`
+- Must not have more than two identical consecutive characters
+
+Italian vowels with accents are considered to be invalid.
+
+Both the old and the new password are sent to the server without beign hashed first. Validation happens on the server side only.
+
+|SielteID|
 
 
 `Singapore Airlines <https://www.singaporeair.com/en_UK/ppsclub-krisflyer/registration-form/>`__
@@ -2041,6 +2191,14 @@ Password must be between 8 and 16 characters in length and include at least one 
 and one number. Certain special characters are also allowed, but the first character of the password must be alphanumeric.
 
 |Southwest|
+
+
+`South Western Railway <https://www.southwesternrailway.com>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Certain special characters disallowed, but notably the phrase " or " is disallowed also. They're probably papering over SQL injection vulnerabilities 🤦
+
+|South Western Railway|
 
 
 `Sparda-Bank <https://banking.sparda-m.de/spm/?institut=7009>`__
@@ -2151,6 +2309,20 @@ Your password must:
 |SunLife|
 
 
+`Sunny Portal <https://www.sunnyportal.com/Account/Register>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The password must consist of at least 10 and at most 50 characters. It must contain at least one special character, one number, one lower-case letter and one upper-case letter.
+The following characters are permitted for the password:
+
+- Lower-case letters (a-z)
+- Upper-case letters (A-Z)
+- Digits (0-9)
+- Special characters (!\"§$%&/()=?*+'#-_.:,;|{[]}²³^°)
+
+|Sunny Portal|
+
+
 `SunTrust <https://www.suntrust.com/>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -2209,6 +2381,19 @@ Password must:
 Your PIN can only contain numbers and must be between 4 and 6 numbers.
 
 |Tangerine|
+
+
+`Tanishq <https://www.tanishq.co.in/myaccount/register?url=https://www.tanishq.co.in/>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password must contain:
+
+- 6 to 16 characters.
+- Atleast one special character (@, #, $, %, * and & only).
+- Atleast one alphabet.
+- Atleat one number.
+
+|Tanishq|
 
 
 `Targobank <https://www.targobank.de/de/banque/change_password/UA_Gestion_ChPw.aspx/>`__
@@ -2380,6 +2565,15 @@ and simply reset my password.
 Now I wish I'd just said nothing and kept my 50-character password.
 
 |UniSuper|
+
+`United Airlines <https://united.com>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Security questions (and their answers!) must both be picked from dropdown
+menus with a limited number of answers and there is no option for unique
+answers.
+
+|United Airlines|
 
 
 `United Parcel Service of America <https://www.ups.com/doapp/signup>`__
@@ -2567,6 +2761,21 @@ confusion when the password wouldn't work.
 |Virgin Trains|
 
 
+`Vistara <https://www.airvistara.com/in/en/club-vistara/register>`__
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Password must contain:
+
+- 8 to 12 Characters.
+- Atleast one lowercase and uppercase letter.
+- Atleast one numeric character.
+- Atleast one special character (!, @, #, $, %, %, ^, &, +, =).
+
+Must not contain space, first or last name.
+
+|Vistara|
+
+
 `Wageworks <https://participant.wageworks.com/Home.aspx>`__
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -2702,6 +2911,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |ATT| image:: /screenshots/att.png
 .. |Banca Intesa Serbia| image:: /screenshots/banca_intesa_serbia.png
 .. |Banco Mercantil| image:: /screenshots/banco-mercantil.png
+.. |Banco Nacional CR| image:: /screenshots/banco-nacional-cr.png
 .. |Bank Millennium| image:: /screenshots/bank-millennium.png
 .. |Bank of America| image:: /screenshots/boa.png
 .. |Battle.net| image:: /screenshots/battlenet.png
@@ -2730,6 +2940,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |CENLAR| image:: /screenshots/cenlar.png
 .. |CenturyLink| image:: /screenshots/centurylink.png
 .. |CenturyLink Residential| image:: /screenshots/centurylink-residential.png
+.. |CGHS| image:: /screenshots/CGHS.png
 .. |Charles Sturt University| image:: /screenshots/csu.edu.au.png
 .. |Chase| image:: /screenshots/chase.jpg
 .. |Chegg1| image:: /screenshots/chegg1.png
@@ -2739,10 +2950,12 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Cigna| image:: /screenshots/my.cigna.com.png
 .. |Citi| image:: /screenshots/citi.png
 .. |CloverSecurity| image:: /screenshots/cloversecurity.png
+.. |CodePen| image:: /screenshots/codepen.jpg
 .. |collegeboard| image:: /screenshots/collegeboard.png
 .. |Comcast| image:: /screenshots/comcast.png
 .. |Commsec| image:: /screenshots/commsec.png
 .. |Copart| image:: /screenshots/copart.png
+.. |CoppellWaterUtility| image:: /screenshots/coppell_tx_water_utility.png
 .. |Copyright.gov| image:: /screenshots/copyright-gov.png
 .. |Costco.com| image:: /screenshots/Costco.com.png
 .. |Coventry Building Society| image:: /screenshots/coventry-building-society.png
@@ -2759,6 +2972,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Discovery Benefits 1| image:: /screenshots/discovery-benefits-1.png
 .. |Discovery Benefits 2| image:: /screenshots/discovery-benefits-2.png
 .. |DJI| image:: /screenshots/dji-drones.png
+.. |dkb_app| image:: /screenshots/dkb_app.png
 .. |dnevnik| image:: /screenshots/dnevnik.png
 .. |Dutch Tax Authorities| image:: /screenshots/belastingdienst.jpg
 .. |dwrcymru| image:: /screenshots/dwrcymru.png
@@ -2770,15 +2984,18 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |EllieMae1| image:: /screenshots/elliemae1.png
 .. |EllieMae2| image:: /screenshots/elliemae2.png
 .. |EllieMae3| image:: /screenshots/elliemae3.png
+.. |Entwickler.de| image:: /screenshots/entwicklerde.png
 .. |EON| image:: /screenshots/eon.png
 .. |EquifaxTheWorkNumber| image:: /screenshots/EquifaxTheWorkNumber.png
 .. |ETrade| image:: /screenshots/etrade.png
 .. |Eurocircuits| image:: /screenshots/eurocircuits.png
+.. |ExpressEnergy| image:: /screenshots/express_energy_tx_registration.png
 .. |Faceit| image:: /screenshots/faceit.png
 .. |Fidelity| image:: /screenshots/fidelity.png
 .. |FIS Global| image:: /screenshots/fisglobal.png
 .. |Freepik| image:: /screenshots/freepik.png
 .. |Fundatec| image:: /screenshots/fundatec.png
+.. |GameFly| image:: /screenshots/Gamefly.png
 .. |Gebührenfrei MasterCard| image:: /screenshots/gebuhrenfrei-mastercard.png
 .. |Getin Bank| image:: /screenshots/getin.png
 .. |Global Entry| image:: /screenshots/global-entry.png
@@ -2787,7 +3004,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |GoFundMe| image:: /screenshots/gofundme.png
 .. |GreenFlag1| image:: /screenshots/green-flag-1.png
 .. |GreenFlag2| image:: /screenshots/green-flag-2.png
-.. |Her Majesty’s Revenue & Customs| image:: /screenshots/tax.service.gov.uk.png
+.. |HM Revenue & Customs| image:: /screenshots/tax.service.gov.uk.png
 .. |Hetzner| image:: /screenshots/hetzner.png
 .. |HSABank| image:: /screenshots/hsabank.png
 .. |IBM-TSO| image:: /screenshots/ibm_tso_logon.png
@@ -2797,6 +3014,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |ING Australia| image:: /screenshots/ingaustralia.png
 .. |ING Romania| image:: /screenshots/ingromania.jpg
 .. |IHG| image:: /screenshots/ihg.png
+.. |IKEA| image:: /screenshots/ikea.jpg
 .. |ING Australia| image:: /screenshots/ingaustralia.png
 .. |ING Bank| image:: /screenshots/ingbank.png
 .. |ING Romania| image:: /screenshots/ingromania.jpg
@@ -2804,10 +3022,12 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Inria| image:: /screenshots/inria.png
 .. |INSS| image:: /screenshots/inss.png
 .. |Intel| image:: /screenshots/intel.jpg
+.. |Intelink| image:: /screenshots/passport.intelink.gov.png
 .. |Interactive Brokers| image:: /screenshots/interactive_brokers.png
 .. |Irodoricomics| image:: /screenshots/irodoricomics.png
 .. |IRS| image:: /screenshots/irs.png
 .. |Izly by Crous| image:: /screenshots/izly-by-crous.png
+.. |Jaa| image:: /screenshots/JaaLifestyle.png
 .. |Jitterbit| image:: /screenshots/jitterbit.png
 .. |Keimyung1| image:: /screenshots/keimyung1.png
 .. |Keimyung2| image:: /screenshots/keimyung2.png
@@ -2827,6 +3047,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |ME Bank| image:: /screenshots/me-bank.png
 .. |Merrill Lynch| image:: /screenshots/merrill-lynch.png
 .. |MetLife| image:: /screenshots/metlife.png
+.. |Michigan.gov| image:: /screenshots/michigan.gov.png
 .. |Microsoft (e company store)| image:: /screenshots/Microsoft-ecompanystore.png
 .. |Microsoft (work accounts)| image:: /screenshots/microsoftwork.png
 .. |Mindware| image:: /screenshots/mindware1.png
@@ -2850,6 +3071,9 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |NBank| image:: /screenshots/nbank.jpg
 .. |NectarApi| image:: /screenshots/nectar-api.png
 .. |Netflix| image:: /screenshots/netflix.png
+.. |NetBank-info| image:: /screenshots/NetBank-info.png
+.. |NetBank-overview| image:: /screenshots/NetBank-overview.png
+.. |NetworkRail| image:: /screenshots/networkrail.png
 .. |Nevada DMV| image:: /screenshots/dmvapp.nv.gov.png
 .. |NordVPN| image:: /screenshots/nordvpn.png
 .. |NPTU| image:: /screenshots/nptu.png
@@ -2888,12 +3112,15 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Scandinavian Airlines| image:: /screenshots/sas.no.png
 .. |Sears| image:: /screenshots/sears.png
 .. |SecureAccess Washington| image:: /screenshots/secureaccess-wa.png
+.. |Sephora| image:: /screenshots/sephora.png
 .. |Seur| image:: /screenshots/seur.png
 .. |Sharekhan| image:: /screenshots/sharekhan.png
+.. |SielteID| image:: /screenshots/sielteid.png
 .. |Singapore Airlines| image:: /screenshots/singaporeairlines.png
 .. |Sky Ticket| image:: /screenshots/sky-ticket.png
 .. |Slovenska sporitelna| image:: /screenshots/slsp.png
 .. |Southwest| image:: /screenshots/southwest.png
+.. |South Western Railway| image:: /screenshots/southwesternrailway.png
 .. |Sparda B| image:: /screenshots/sparda-b.png
 .. |Sparda M 1| image:: /screenshots/sparda-m-1.png
 .. |Sparda M 2| image:: /screenshots/sparda-m-2.png
@@ -2903,12 +3130,14 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Standard Chartered Bank| image:: /screenshots/standard-chartered-bank.png
 .. |State Bank of India| image:: /screenshots/sbi.png
 .. |SunLife| image:: /screenshots/sunlife.png
+.. |Sunny Portal| image:: /screenshots/sunny_portal.png
 .. |SunTrust| image:: /screenshots/suntrust.png
 .. |Synchrony Financial| image:: /screenshots/synchrony.png
 .. |T-Mobile| image:: /screenshots/tmobile.png
 .. |Taco Bell| image:: /screenshots/taco-bell.png
 .. |Taiwan Pingtung University| image:: /screenshots/nptu.png
 .. |Tangerine| image:: /screenshots/tangerine.png
+.. |Tanishq| image:: /screenshots/tanishq.png
 .. |Targobank| image:: /screenshots/targobank.png
 .. |Techcombank| image:: /screenshots/techcombank.png
 .. |Telcel| image:: /screenshots/Telcel.png
@@ -2925,6 +3154,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Ubisoft| image:: /screenshots/ubisoft.PNG
 .. |Unicaja| image:: /screenshots/unicaja.png
 .. |UniSuper| image:: /screenshots/unisuper.png
+.. |United Airlines| image:: /screenshots/unitedairlines.png
 .. |United Parcel Service of America| image:: /screenshots/ups.png
 .. |United States Postal Service| image:: /screenshots/usps.png
 .. |University of California San Diego| image:: /screenshots/ucsd.png
@@ -2944,6 +3174,7 @@ The new Password cannot be the same as the last 32 passwords you have used. (the
 .. |Virgin Media| image:: /screenshots/virginmedia.jpg
 .. |Virgin Mobile| image:: /screenshots/virginmobile.png
 .. |Virgin Trains| image:: /screenshots/virgintrains.jpg
+.. |Vistara| image:: /screenshots/Vistara.png
 .. |WageWorks| image:: /screenshots/wageworks.png
 .. |Walmart| image:: /screenshots/walmart.png
 .. |Waze| image:: /screenshots/waze.png
